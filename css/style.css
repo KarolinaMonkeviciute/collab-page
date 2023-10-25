@@ -312,5 +312,15 @@ header{
     font-size: 16px;
     font-weight: 600;
 }
-
+.plans > .plan-choices-heading{
+    text-align: center;
+}
+.plans .plan-choices-text{
+    text-align: center;
+    margin-top: 15px;
+    color:#A79D9D;
+}
+.plans .info{
+    
+}
 
