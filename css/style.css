@@ -226,10 +226,46 @@ header{
 }
 .table-background{
     width: 45%;
-    background-color: yellow;
+    background-color: #fff;
+    position: absolute;
+    left: 55px;
+    top: 190px;
+    height: 500px;
+}
+.text-content-box.first{
+    width: 80%;
+    background-color: #F2F2F2;
     position: absolute;
     left: 35px;
-    top: 190px;
+    top: 20px;
+    padding: 30px 20px;
+}
+.text-content-box.second{
+    width: 80%;
+    background-color: #F2F2F2;
+    position: absolute;
+    left: 35px;
+    top: 210px;
+    padding: 30px 20px;
+    cursor: pointer;
+}
+.text-content-box.third{
+    width: 80%;
+    background-color: #F2F2F2;
+    position: absolute;
+    left: 35px;
+    top: 308px;
+    padding: 30px 20px;
+    cursor: pointer;
+}
+.text-content-box.fourth{
+    width: 80%;
+    background-color: #F2F2F2;
+    position: absolute;
+    left: 35px;
+    top: 427px;
+    padding: 30px 20px;
+    cursor: pointer;
 }
 
 
