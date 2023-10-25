@@ -267,6 +267,17 @@ header{
     padding: 30px 20px;
     cursor: pointer;
 }
+.video-section-heading{
+    margin-top: 350px;
+    text-align: center;
+}
+.video-section-text{
+    text-align: center;
+    margin: 40px 60px;
+}
+.video-ad{
+    margin-left: 18%;
+}
 
 
 
