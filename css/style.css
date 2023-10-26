@@ -367,4 +367,92 @@ header{
 .plans .toggle-input:checked ~ .toggle-fill::after{
     transform: translateX(25px);
 }
+.type.yearly{
+    color: #2B0236;
+    font-weight: bold;
+}
+.plans .discount{
+    background-color: #FFE87A;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+.plans .plan-choices{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.plans .basic-plan{
+    width: 280px;
+    display: flex;
+    flex-flow: column;
+    align-content: flex-start;
+    padding: 30px;
+    height: 420px;
+    border: 1px solid #AAAAAA;
+    border-radius: 14px;
+}
+.plans .extra-plan{
+    width: 280px;
+    background-color: #56E6A5;
+    display: flex;
+    flex-flow: column;
+    align-content: flex-start;
+    padding: 30px;
+    height: 420px;
+    border: 1px solid #AAAAAA;
+    border-radius: 14px;
+}
+.plans .plan-name{
+    font-weight: bold;
+}
+.price{
+    margin: 40px 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+.button-request{
+    width: 70%;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #fff;
+    color: #2B0236;
+    font-weight: bold;
+    border: 2.5px solid #2B0236;
+    padding: 10px 5px;
+    margin-left: 35px;
+    border-radius: 6px;
+    transition: .3s ease-in-out;
+}
+.button-request:hover{
+    color: #fff;
+    background-color: #2B0236;
+}
+.extra-plan .button-request{
+    margin-top: 40px;
+}
+::marker{
+    content: '\25B6';
+}
+ul {
+    margin-top: 40px;
+    display: flex;
+    flex-flow: column;
+    gap: 7px 0;
+    justify-content: flex-start;
+    padding-left: 45px;
+}
+li {
+    padding-left: 10px;
+}
+.plans .extra-plan-text{
+    width: 70%;
+    margin-top: 40px;
+    padding-left: 40px;
+    font-size: 14px;
+}
+
+
 
