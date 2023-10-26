@@ -453,6 +453,51 @@ li {
     padding-left: 40px;
     font-size: 14px;
 }
-
+.reviews{
+    background-color: #E2BDF21C;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.reviews .content{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    align-items: center;
+}
+.reviews .rating{
+    width: 20%;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.reviews .comment{
+    width: 70%;
+    padding: 30px;
+}
+.reviews .avatar{
+    width: 5%;
+    padding: 20px 0 10px 0;
+}
+.material-symbols-outlined{
+    display: inline-block;
+    font-size: 64px;
+    color: #333;
+    transition: .3s ease-in-out;
+    z-index: 100;
+}
+.material-symbols-outlined.left{
+    position: absolute;
+    top: 36%;
+    left: 40px;
+}
+.material-symbols-outlined.right{
+    position: absolute;
+    top: 36%;
+    right: 40px;
+}
+.material-symbols-outlined:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
 
 
