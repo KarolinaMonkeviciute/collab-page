@@ -525,6 +525,7 @@ li {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     z-index: 100;
     transition: .3s ease-in-out;
+    text-transform: capitalize;
 }
 .join .explore:hover{
     background-color: #fff;
@@ -587,5 +588,37 @@ li {
     position: absolute;
     top: 50px;
     right: 150px;
+    color: #9A54BC;
+}
+.download-apps{
+    background-color: #9A54BC;
+    margin-top: 400px;
+    text-align: center;
+    height: 450px;
+}
+.download-heading{
+    display: inline-block;
+    padding: 200px 0 50px;
+    color: #fff;
+    font-size: 46px;
+}
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+.btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    transition: .3s ease-in-out;
+}
+.btn:hover{
+    background-color: #fff;
     color: #9A54BC;
 }
