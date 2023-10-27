@@ -504,7 +504,7 @@ li {
     flex-flow: column;
     text-align: center;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
 }
 .join .join-heading{
     margin-top: 40px;
@@ -522,7 +522,9 @@ li {
     color: #fff;
     font-weight: bold;
     border: 2px solid #9A54BC;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     z-index: 100;
+    transition: .3s ease-in-out;
 }
 .join .explore:hover{
     background-color: #fff;
