@@ -598,7 +598,7 @@ li {
 }
 .download-heading{
     display: inline-block;
-    padding: 200px 0 50px;
+    padding: 150px 0 50px;
     color: #fff;
     font-size: 46px;
 }
@@ -621,4 +621,21 @@ li {
 .btn:hover{
     background-color: #fff;
     color: #9A54BC;
+}
+.contact{
+    display: flex;
+}
+.contact-info{
+    width: 40%;
+    margin-top: 100px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 30px;
+}
+.contact-info-heading{
+    font-size: 32px;
+}
+.contact-info-text{
+    font-weight: bold;
 }
