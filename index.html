@@ -101,12 +101,12 @@
         <h2 class="plan-choices-heading">Ready to start with Collab apps?</h2>
         <p class="plan-choices-text">Choose package that suits you.</p>
         <div class="info">
-            <h3 class="type">Monthly</h3>
+            <h3 class="type" id="monthly">Monthly</h3>
             <label class="toggle-button" for="toggle">
-                <input class="toggle-input" type="checkbox" name="toggle" id="toggle">
+                <input class="toggle-input" type="checkbox" name="toggle" id="toggle" onclick="isChecked()">
                 <div class="toggle-fill"></div>
             </label>
-            <h3 class="type yearly">Yearly</h3>
+            <h3 class="type yearly" id="yearly">Yearly</h3>
             <p class="discount">-10% discount</p>
         </div>
         <div class="plan-choices">
@@ -135,7 +135,7 @@
             </div>
             <div class="extra-plan">
                 <p class="plan-name">Enterprise</p>
-                <p class="price">Contact sales team</p>
+                <p class="forPrice">Contact sales team</p>
                 <a class="button-request" href="#">Request demo</a>
                 <p class="extra-plan-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, esse mollitia.</p>
             </div>
@@ -227,6 +227,6 @@
     <div class="above-header">
         <p>@2022 Collab | All Rigth Reserved</p>
     </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>

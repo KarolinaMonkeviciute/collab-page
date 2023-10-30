@@ -328,8 +328,10 @@ header{
 }
 .plans .type{
     font-size: 16px;
-    font-weight: 500;
-    color:#A79D9D;
+    color:#333;
+}
+.plans .type.yearly{
+    color: #A79D9D;
 }
 .plans .toggle-button{
     width: 50px;
@@ -408,6 +410,11 @@ header{
     font-weight: bold;
 }
 .price{
+    margin: 40px 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+.forPrice{
     margin: 40px 0;
     font-size: 32px;
     font-weight: bold;
