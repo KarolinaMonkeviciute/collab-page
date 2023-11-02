@@ -12,9 +12,9 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://karolinamonkeviciute.github.io/Sneakers-E-Shop-Design/
+Site published at: https://karolinamonkeviciute.github.io/collab-page/
 
-Design: [SNEAKER E-SHOP](https://www.figma.com/file/oFQwNux1pfF6YYx6bqyfSn/Sneaker-Hero-Section-(Community)?type=design&node-id=1-329&mode=design&t=lh1zppvvLA4iC9T4-0)
+Design: [SNEAKER E-SHOP](https://www.figma.com/file/9mV6rCFOEd1ptuZ4JBovVS/Collab-landing-page-design-(Community)?type=design&node-id=0-1&mode=design&t=qixVSBsxtp97dWAl-0)
 
 ## 🎯 Project features/goals
 
@@ -43,7 +43,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://karolinamonkeviciute.github.io/Sneakers-E-Shop-Design/
+    git clone https://github.com/KarolinaMonkeviciute/collab-page
     ```
 2. Install NPM packages
     ```sh
